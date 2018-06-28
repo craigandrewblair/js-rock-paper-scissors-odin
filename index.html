@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock, Paper, Scissors!</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header id="title">
+            <h1>Rock, Paper, Scissors!</h1>
+        </header>
+
+        <section id="summary">
+            <article id="player-scr-div">
+                <header>Player</header>
+                <div id="player-score-txt">$0</div>
+            </article>
+            <article id="computer-choice-div">
+                <img id="question-mark-img" src="/images/question-mark-img.png">
+            </article>
+            <article id="computer-scr-div">
+                <header>Computer</header>
+                <div id="computer-score-txt">$0</div>
+            </article>
+        </section>
+
+        <div id="instruction-txt"></div>
+
+        <article id="choice-imgs">
+            <div id="rock-div">
+                <div id="rock-img-circle" class="circle-divs">
+                    <img id="rock-img" class="choice-img" src="/images/rock-img.png" alt="rock">
+                </div>
+            </div>
+            <div id="paper-div">
+                <div id="paper-img-circle" class="circle-divs">
+                    <img id="paper-img" class="choice-img" src="/images/paper-img.png" alt="rock">
+                </div>
+            </div>
+            <div id="scissors-div">
+                <div id="scissors-img-circle" class="circle-divs">
+                    <img id="scissors-img" class="choice-img" src="/images/scissors-img.png" alt="rock">
+                </div>
+            </div>
+        </article>
+
+        <footer>
+            <div id="footer-reset-div">Click Here To Reset</div>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>

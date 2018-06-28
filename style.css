@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #262626;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+#title{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    font-size: 12px;
+    position: relative;
+    padding: 10px 0 15px 0;
+    background-color: black;
+    color: #f4f4f4;
+}
+#summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.summary-divs{
+    justify-content: space-around;
+}
+#player-score-txt{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 36px;
+    padding-top: 20px;
+}
+#computer-score-txt{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 36px;
+    padding-top: 20px;
+}
+#computer-scr-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#computer-choice-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#player-scr-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#instruction-txt{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: black;
+}
+#choose-txt{
+    display: flex;
+    justify-content: center;
+}
+#player-selection-div{
+    display: flex;
+    justify-content: center;
+}
+#player-selection-div header{
+    display: flex;
+    flex-direction: row;
+}
+#choice-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.choice-img:hover{
+    cursor: pointer;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+}
+#play-btn{
+    background-color: blue;
+    color: white;
+}
+#reset-btn{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+    right: 120px;
+    top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    padding: 0 0 40px 0;
+}
+#question-mark-img{
+    height: 100px;
+}
+.circle-divs{
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 90px;
+}
+
+footer{
+    background-color: #fc6429;
+    display: flex;
+    font-size: 32px;
+    color: white;
+    padding: 10px 0 20px 0;
+}
+footer:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
