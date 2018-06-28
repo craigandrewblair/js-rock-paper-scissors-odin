@@ -112,7 +112,7 @@ function reset(){
     computerScore = 0;
     instructionMsg = "Click Rock, Paper or Scissors to Start.";
     $(".circle-divs").css('background-color', '#f4f4f4');
-    $('#question-mark-img').prop('src', '/images/question-mark-img.png');
+    $('#question-mark-img').prop('src', 'images/question-mark-img.png');
     updateScoreColor();
     $('.choice-img').css('visibility', 'visible');
     $('.circle-divs').css('visibility', 'visible');
