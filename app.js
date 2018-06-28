@@ -8,7 +8,7 @@ $(".choice-img").on("click", function(){
     let compChoice = computerPlay();
     $(".circle-divs").css('background-color', '#f4f4f4');
     $(this).parent().css("background-color", "#7ED321");
-    $('#question-mark-img').prop('src', '/images/' + compChoice + '.png');
+    $('#question-mark-img').prop('src', 'images/' + compChoice + '.png');
     playerMove(this.id, compChoice, playerScore, computerScore);  
 });
 
